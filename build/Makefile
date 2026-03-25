@@ -129,29 +129,29 @@ kalman_filter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/build
 .PHONY : kalman_filter/fast
 
-src/kalman_filter.o: src/kalman_filter.cpp.o
-.PHONY : src/kalman_filter.o
+src/ekf.o: src/ekf.cpp.o
+.PHONY : src/ekf.o
 
 # target to build an object file
-src/kalman_filter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o
-.PHONY : src/kalman_filter.cpp.o
+src/ekf.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/src/ekf.cpp.o
+.PHONY : src/ekf.cpp.o
 
-src/kalman_filter.i: src/kalman_filter.cpp.i
-.PHONY : src/kalman_filter.i
+src/ekf.i: src/ekf.cpp.i
+.PHONY : src/ekf.i
 
 # target to preprocess a source file
-src/kalman_filter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.i
-.PHONY : src/kalman_filter.cpp.i
+src/ekf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/src/ekf.cpp.i
+.PHONY : src/ekf.cpp.i
 
-src/kalman_filter.s: src/kalman_filter.cpp.s
-.PHONY : src/kalman_filter.s
+src/ekf.s: src/ekf.cpp.s
+.PHONY : src/ekf.s
 
 # target to generate assembly for a file
-src/kalman_filter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.s
-.PHONY : src/kalman_filter.cpp.s
+src/ekf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/src/ekf.cpp.s
+.PHONY : src/ekf.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -177,6 +177,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/multi_object_tracker.o: src/multi_object_tracker.cpp.o
+.PHONY : src/multi_object_tracker.o
+
+# target to build an object file
+src/multi_object_tracker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/src/multi_object_tracker.cpp.o
+.PHONY : src/multi_object_tracker.cpp.o
+
+src/multi_object_tracker.i: src/multi_object_tracker.cpp.i
+.PHONY : src/multi_object_tracker.i
+
+# target to preprocess a source file
+src/multi_object_tracker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/src/multi_object_tracker.cpp.i
+.PHONY : src/multi_object_tracker.cpp.i
+
+src/multi_object_tracker.s: src/multi_object_tracker.cpp.s
+.PHONY : src/multi_object_tracker.s
+
+# target to generate assembly for a file
+src/multi_object_tracker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/src/multi_object_tracker.cpp.s
+.PHONY : src/multi_object_tracker.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... kalman_filter"
-	@echo "... src/kalman_filter.o"
-	@echo "... src/kalman_filter.i"
-	@echo "... src/kalman_filter.s"
+	@echo "... src/ekf.o"
+	@echo "... src/ekf.i"
+	@echo "... src/ekf.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/multi_object_tracker.o"
+	@echo "... src/multi_object_tracker.i"
+	@echo "... src/multi_object_tracker.s"
 .PHONY : help
 
 

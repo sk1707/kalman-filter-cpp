@@ -86,33 +86,49 @@ CMakeFiles/kalman_filter.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kalman_filter.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bapnarb/Desktop/kalman-filter-cpp/src/main.cpp -o CMakeFiles/kalman_filter.dir/src/main.cpp.s
 
-CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o: CMakeFiles/kalman_filter.dir/flags.make
-CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o: /Users/bapnarb/Desktop/kalman-filter-cpp/src/kalman_filter.cpp
-CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o: CMakeFiles/kalman_filter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bapnarb/Desktop/kalman-filter-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o -MF CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o.d -o CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o -c /Users/bapnarb/Desktop/kalman-filter-cpp/src/kalman_filter.cpp
+CMakeFiles/kalman_filter.dir/src/ekf.cpp.o: CMakeFiles/kalman_filter.dir/flags.make
+CMakeFiles/kalman_filter.dir/src/ekf.cpp.o: /Users/bapnarb/Desktop/kalman-filter-cpp/src/ekf.cpp
+CMakeFiles/kalman_filter.dir/src/ekf.cpp.o: CMakeFiles/kalman_filter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bapnarb/Desktop/kalman-filter-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/kalman_filter.dir/src/ekf.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kalman_filter.dir/src/ekf.cpp.o -MF CMakeFiles/kalman_filter.dir/src/ekf.cpp.o.d -o CMakeFiles/kalman_filter.dir/src/ekf.cpp.o -c /Users/bapnarb/Desktop/kalman-filter-cpp/src/ekf.cpp
 
-CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bapnarb/Desktop/kalman-filter-cpp/src/kalman_filter.cpp > CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.i
+CMakeFiles/kalman_filter.dir/src/ekf.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/kalman_filter.dir/src/ekf.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bapnarb/Desktop/kalman-filter-cpp/src/ekf.cpp > CMakeFiles/kalman_filter.dir/src/ekf.cpp.i
 
-CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bapnarb/Desktop/kalman-filter-cpp/src/kalman_filter.cpp -o CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.s
+CMakeFiles/kalman_filter.dir/src/ekf.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kalman_filter.dir/src/ekf.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bapnarb/Desktop/kalman-filter-cpp/src/ekf.cpp -o CMakeFiles/kalman_filter.dir/src/ekf.cpp.s
+
+CMakeFiles/kalman_filter.dir/src/multi_object_tracker.cpp.o: CMakeFiles/kalman_filter.dir/flags.make
+CMakeFiles/kalman_filter.dir/src/multi_object_tracker.cpp.o: /Users/bapnarb/Desktop/kalman-filter-cpp/src/multi_object_tracker.cpp
+CMakeFiles/kalman_filter.dir/src/multi_object_tracker.cpp.o: CMakeFiles/kalman_filter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bapnarb/Desktop/kalman-filter-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/kalman_filter.dir/src/multi_object_tracker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kalman_filter.dir/src/multi_object_tracker.cpp.o -MF CMakeFiles/kalman_filter.dir/src/multi_object_tracker.cpp.o.d -o CMakeFiles/kalman_filter.dir/src/multi_object_tracker.cpp.o -c /Users/bapnarb/Desktop/kalman-filter-cpp/src/multi_object_tracker.cpp
+
+CMakeFiles/kalman_filter.dir/src/multi_object_tracker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/kalman_filter.dir/src/multi_object_tracker.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bapnarb/Desktop/kalman-filter-cpp/src/multi_object_tracker.cpp > CMakeFiles/kalman_filter.dir/src/multi_object_tracker.cpp.i
+
+CMakeFiles/kalman_filter.dir/src/multi_object_tracker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kalman_filter.dir/src/multi_object_tracker.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bapnarb/Desktop/kalman-filter-cpp/src/multi_object_tracker.cpp -o CMakeFiles/kalman_filter.dir/src/multi_object_tracker.cpp.s
 
 # Object files for target kalman_filter
 kalman_filter_OBJECTS = \
 "CMakeFiles/kalman_filter.dir/src/main.cpp.o" \
-"CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o"
+"CMakeFiles/kalman_filter.dir/src/ekf.cpp.o" \
+"CMakeFiles/kalman_filter.dir/src/multi_object_tracker.cpp.o"
 
 # External object files for target kalman_filter
 kalman_filter_EXTERNAL_OBJECTS =
 
 kalman_filter: CMakeFiles/kalman_filter.dir/src/main.cpp.o
-kalman_filter: CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o
+kalman_filter: CMakeFiles/kalman_filter.dir/src/ekf.cpp.o
+kalman_filter: CMakeFiles/kalman_filter.dir/src/multi_object_tracker.cpp.o
 kalman_filter: CMakeFiles/kalman_filter.dir/build.make
 kalman_filter: CMakeFiles/kalman_filter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/bapnarb/Desktop/kalman-filter-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable kalman_filter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/bapnarb/Desktop/kalman-filter-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable kalman_filter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kalman_filter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

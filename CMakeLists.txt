@@ -9,7 +9,8 @@ include_directories(include ${EIGEN3_INCLUDE_DIR})
 
 add_executable(kalman_filter
     src/main.cpp
-    src/kalman_filter.cpp
+    src/ekf.cpp
+    src/multi_object_tracker.cpp
 )
 
 target_link_libraries(kalman_filter Eigen3::Eigen)

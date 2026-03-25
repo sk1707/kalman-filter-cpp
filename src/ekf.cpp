@@ -67,4 +67,3 @@ void EKF::update(const Eigen::VectorXd& z, const std::string& sensor_type) {
     x_ = x_ + K * y;
     P_ = (Eigen::MatrixXd::Identity(state_dim_, state_dim_) - K * H) * P_;
 }
-
